@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -14,7 +18,13 @@ header img {
     margin-bottom: 2rem;
 }
 
-ul {
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #495e57;
+}
+
+nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -24,7 +34,6 @@ ul {
 ul li {
     display: inline-block;
     margin: 0 1em;
-    background-color: #495e57;
     padding: 0.5em 1em;
     border-radius: 0.5em;
 }
