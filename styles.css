@@ -1,0 +1,137 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-inline: 3rem;
+    padding: 0;
+}
+
+header img {
+    display: block;
+    margin-inline: auto;
+    max-width: 50%;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 1em;
+    background-color: #495e57;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+}
+
+ul li a {
+    color: #ffbb00;
+    text-decoration: none;
+}
+
+section.main h1 {
+    text-align: center;
+    color: #ffbb00;
+    font-size: 2rem;
+    margin-block: 2rem;
+    padding: 0;
+}
+
+section.main p {
+    font-size: 1.2em;
+}
+
+section.main button {
+    background-color: #ffbb00;
+    color: #495e57;
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.5em;
+    margin-block: 2rem;
+    display: block;
+    margin-inline: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+section.main button:hover {
+    color: #ffbb00;
+    background-color: #495e57;
+    cursor: pointer;
+}
+
+section.menu {
+    padding: 1rem 0;
+    display: flex;
+    gap: 0.5rem;
+}
+
+section.menu article {
+    background-color: #495e57;
+    flex: 1;
+    padding: 1rem;
+    border-radius: 0.5em;
+}
+
+section.menu article h3 {
+    color: #ffbb00;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+section.menu article p {
+    color: #fff;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+}
+
+section.menu article div img {
+    display: block;
+    margin: 0 auto;
+    max-width: 5rem;
+    padding: 1em 0;
+}
+
+section.menu article button {
+    text-align: center;
+    display: block;
+    margin-inline: auto;
+    background-color: #ffbb00;
+    color: #495e57;
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.5em;
+    margin-top: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+section.menu article button:hover {
+    color: #ffbb00;
+    background-color: white;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    display: flex;
+}
+
+footer>p {
+    flex: 1;
+    text-align: end;
+    text-decoration: overline;
+}
+
+footer img {
+    max-width: 2rem;
+}
